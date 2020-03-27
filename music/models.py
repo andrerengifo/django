@@ -1,5 +1,6 @@
 from django.db import models
 
+#Crear modelo Song
 class Song(models.Model):
     genre_choices = (
         ('Pop', 'Pop'),
